@@ -46,29 +46,29 @@ export default class SongView {
     var tuningTitle;
 
     // standards
-    if (tuning[0] == "E" && tuning[1] == "A" && tuning[2] == "D")//0
+    if (this.#song.tuning[0] == "E" && this.#song.tuning[1] == "A")//0
       tuningTitle = "Standard E";
 
-    if (tuning[0] == "D#" && tuning[1] == "G#" && tuning[2] == "C#")//-1
+    if (this.#song.tuning[0] == "D#" && this.#song.tuning[1] == "G#")//-1
       tuningTitle = "Standard D#";
 
-    if (tuning[0] == "D" && tuning[1] == "G" && tuning[2] == "C")//-2
+    if (this.#song.tuning[0] == "D" && this.#song.tuning[1] == "G")//-2
       tuningTitle = "Standard D";
 
-    if (tuning[0] == "C#" && tuning[1] == "F#" && tuning[2] == "B")//-3
+    if (this.#song.tuning[0] == "C#" && this.#song.tuning[1] == "F#")//-3
       tuningTitle = "Standard C#";
     
     // drops
-    if (tuning[0] == "D" && tuning[1] == "A" && tuning[2] == "D")//0
+    if (this.#song.tuning[0] == "D" && this.#song.tuning[1] == "A")//0
       tuningTitle = "Drop D";
 
-    if (tuning[0] == "C#" && tuning[1] == "G#" && tuning[2] == "C#")//-1
+    if (this.#song.tuning[0] == "C#" && this.#song.tuning[1] == "G#")//-1
       tuningTitle = "Drop C#";
 
-    if (tuning[0] == "C" && tuning[1] == "G" && tuning[2] == "C")//-2
+    if (this.#song.tuning[0] == "C" && this.#song.tuning[1] == "G")//-2
       tuningTitle = "Drop C";
 
-    if (tuning[0] == "B" && tuning[1] == "F#" && tuning[2] == "B")//-3
+    if (this.#song.tuning[0] == "B" && this.#song.tuning[1] == "F#")//-3
       tuningTitle = "Drop B";
 
     const element = document.getElementById("tuning");
