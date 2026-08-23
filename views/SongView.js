@@ -40,48 +40,43 @@ export default class SongView {
   }
 
   setTuning() {
-    const element = document.getElementById("tuning");
-
-    var tuning;
-    var tuningTitle = "";
+    if (!this.#song.tuning)
+      this.#song.tuning = ["E", "A", "D", "G", "B", "E"];
     
-    if (!this.#song.tuning) {
-      tuning = ["E", "A", "D", "G", "B", "E"];
+    var tuningTitle;
+
+    // standards
+    if (tuning[0] == "E" && tuning[1] == "A" && tuning[2] == "D")//0
       tuningTitle = "Standard E";
 
-      element.style.color = "green";
-    } else {
-      tuning = this.#song.tuning;
+    if (tuning[0] == "D#" && tuning[1] == "G#" && tuning[2] == "C#")//-1
+      tuningTitle = "Standard D#";
 
-      // standards
+    if (tuning[0] == "D" && tuning[1] == "G" && tuning[2] == "C")//-2
+      tuningTitle = "Standard D";
 
-      if (tuning[0] == "D#" && tuning[1] == "G#" && tuning[2] == "C#")//-1
-        tuningTitle = "Standard D#";
-
-      if (tuning[0] == "D" && tuning[1] == "G" && tuning[2] == "C")//-2
-        tuningTitle = "Standard D";
-
-      if (tuning[0] == "C#" && tuning[1] == "F#" && tuning[2] == "B")//-3
-        tuningTitle = "Standard C#";
-
-      // drops
-
-      if (tuning[0] == "D" && tuning[1] == "A" && tuning[2] == "D")//0
-        tuningTitle = "Drop D";
-
-      if (tuning[0] == "C#" && tuning[1] == "G#" && tuning[2] == "C#")//-1
-        tuningTitle = "Drop C#";
-
-      if (tuning[0] == "C" && tuning[1] == "G" && tuning[2] == "C")//-2
-        tuningTitle = "Drop C";
-
-      if (tuning[0] == "B" && tuning[1] == "F#" && tuning[2] == "B")//-3
-        tuningTitle = "Drop B";
-
-      element.style.color = "red";
-    }
+    if (tuning[0] == "C#" && tuning[1] == "F#" && tuning[2] == "B")//-3
+      tuningTitle = "Standard C#";
     
-    element.innerHTML = "Guitar tuning: " + tuningTitle +" [" + tuning + "]";
+    // drops
+    if (tuning[0] == "D" && tuning[1] == "A" && tuning[2] == "D")//0
+      tuningTitle = "Drop D";
+
+    if (tuning[0] == "C#" && tuning[1] == "G#" && tuning[2] == "C#")//-1
+      tuningTitle = "Drop C#";
+
+    if (tuning[0] == "C" && tuning[1] == "G" && tuning[2] == "C")//-2
+      tuningTitle = "Drop C";
+
+    if (tuning[0] == "B" && tuning[1] == "F#" && tuning[2] == "B")//-3
+      tuningTitle = "Drop B";
+
+    const element = document.getElementById("tuning");
+    
+    element.style.color = "green";
+    element.style.color = "red";
+    
+    element.innerHTML = "Guitar tuning: " + tuningTitle +" [" + this.#song.tuning + "]";
   }
   
   setDisplay() {
