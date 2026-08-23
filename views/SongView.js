@@ -72,9 +72,11 @@ export default class SongView {
       tuningTitle = "Drop B";
 
     const element = document.getElementById("tuning");
-    
-    element.style.color = "green";
-    element.style.color = "red";
+
+    if (this.#song.tuning[0] == "E" && this.#song.tuning[1] == "A")
+      element.style.color = "green";
+    else
+      element.style.color = "red";
     
     element.innerHTML = "Guitar tuning: " + tuningTitle +" [" + this.#song.tuning + "]";
   }
