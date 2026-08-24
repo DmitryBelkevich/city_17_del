@@ -107,7 +107,7 @@ export default class SongView {
   }
   
   async loadData(path) {
-    const storage = "https://dmitrybelkevich.github.io/city_17/storage/";
+    const storage = "https://dmitrybelkevich.github.io/city_17/storage/Text & Chords/";
     
     try {
       // 1. Wait for the server headers and response status
