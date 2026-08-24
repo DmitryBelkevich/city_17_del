@@ -6,7 +6,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const id = urlParams.get('id');
 
-async function main() {
+async function main() {console.log(id);
   try {
     // model
     const songDao = new SongDao();
