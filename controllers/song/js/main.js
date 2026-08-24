@@ -10,7 +10,7 @@ async function main() {
   try {
     // model
     const songDao = new SongDao();
-    const song = await songDao.getById(id);console.log(song);
+    const song = await songDao.getById(id);
 
     // view
     const songView = new SongView();
