@@ -6,11 +6,11 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const id = urlParams.get('id');
 
-async function main() {console.log(id);
+async function main() {
   try {
     // model
     const songDao = new SongDao();
-    const song = await songDao.getById(id);
+    const song = await songDao.getById(id);console.log(song);
 
     // view
     const songView = new SongView();
