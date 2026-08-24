@@ -8,10 +8,11 @@ const id = urlParams.get('id');
 
 async function main() {
   try {
+    // model
     const songDao = new SongDao();
     const song = await songDao.getById(id);
 
-    // set content
+    // view
     const songView = new SongView();
     songView.song = song;
 
