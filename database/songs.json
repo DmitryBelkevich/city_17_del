@@ -3678,6 +3678,7 @@
   {
     "id": "398",
     "band": "Dean Martin", "title": "Let It Snow! Let It Snow! Let It Snow!",
+    "tags": ["new year"],
     "genre": "New Year",
     "text": "New Year/Dean Martin/Dean Martin - Let It Snow! Let It Snow! Let It Snow!.html",
     "score": "",
@@ -3687,6 +3688,7 @@
   {
     "id": "399",
     "band": "Wham!", "title": "Last Christmas",
+    "tags": ["new year"],
     "genre": "New Year",
     "text": "New Year/Wham!/Wham! - Last Christmas.html",
     "score": "",
@@ -3696,6 +3698,7 @@
   {
     "id": "400",
     "band": "Дилижанс", "title": "Новогодняя",
+    "tags": ["new year"],
     "genre": "New Year",
     "text": "New Year/Дилижанс/Дилижанс - Новогодняя.html",
     "score": "",
@@ -3705,6 +3708,7 @@
   {
     "id": "401",
     "band": "Дискотека Авария", "title": "Новогодняя",
+    "tags": ["new year"],
     "genre": "New Year",
     "text": "New Year/Дискотека Авария/Дискотека Авария - Новогодняя.html",
     "score": "",
@@ -3714,6 +3718,7 @@
   {
     "id": "402",
     "band": "Стекловата", "title": "Новый год",
+    "tags": ["new year"],
     "genre": "New Year",
     "text": "New Year/Стекловата/Стекловата - Новый год.html",
     "score": "",
