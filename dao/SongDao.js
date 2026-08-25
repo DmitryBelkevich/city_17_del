@@ -44,10 +44,9 @@ export default class SongDao {
     song.score = result.score;
     song.playback = result.playback;
     song.tuning = result.tuning;
-    song.addVoice(0, "Voice 1");
-    song.addVoice(1, "Voice 2");
-    song.addInstrument(0, "Guitar");
-    song.addInstrument(1, "Bass");
+    
+    song.voices = ["Voice 1", "Voice 2"];
+    song.instruments = ["Guitar", "Bass Guitar"];
     
     return song;
   }
