@@ -85,7 +85,7 @@ export default class SongView {
     const element = document.getElementById("display");
 
     var voice = this.#song.voices[0];
-    var instrument = this.#song.instruments[0];
+    var instrument.title = this.#song.instruments[1];
     
     element.innerHTML = voice + " " + instrument;
   }
