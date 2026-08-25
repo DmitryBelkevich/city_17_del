@@ -30,22 +30,23 @@ export default class SongDao {
 
   async getById(id) {
     const data = await this.loadData();
-    const result = data.find(s => s.id == id) || null;
+    console.log(data);
+    // const result = data.find(s => s.id == id) || null;
 
-    if (!result)
-      return null;
+    // if (!result)
+    //   return null;
 
-    const song = new Song();
+    // const song = new Song();
     
-    song.id = result.id;
-    song.band = result.band;
-    song.title = result.title;
-    song.text = result.text;
-    song.score = result.score;
-    song.playback = result.playback;
-    song.voices = result.voices;
-    song.instruments = result.instruments;
+    // song.id = result.id;
+    // song.band = result.band;
+    // song.title = result.title;
+    // song.text = result.text;
+    // song.score = result.score;
+    // song.playback = result.playback;
+    // song.voices = result.voices;
+    // song.instruments = result.instruments;
     
-    return song;
+    // return song;
   }
 }
