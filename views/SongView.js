@@ -76,31 +76,58 @@ export default class SongView {
       this.#song.tuning = ["E", "A", "D", "G", "B", "E"];
     
     function getTitle(tuning) {
-      // standards
-      if (tuning[0] == "E" && tuning[1] == "A")//0
+      const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
+
+      // (6-str) standards
+      if (isEqual = (tuning, ["E", "A", "D", "G", "B", "E"]))//0
         return "Standard E";
-  
-      if (tuning[0] == "D#" && tuning[1] == "G#")//-1
+
+      if (isEqual = (tuning, ["D#", "G#", "C#", "F#", "A#", "D#"]))//-1
         return "Standard D#";
   
-      if (tuning[0] == "D" && tuning[1] == "G")//-2
+      if (isEqual = (tuning, ["D", "G", "C", "F", "A", "D"]))//-2
         return "Standard D";
   
-      if (tuning[0] == "C#" && tuning[1] == "F#")//-3
+      if (isEqual = (tuning, ["C#", "F#", "B", "E", "G#", "C#"]))//-3
         return "Standard C#";
       
-      // drops
-      if (tuning[0] == "D" && tuning[1] == "A")//0
-        return "Drop D";
+      // standards
+      // if (tuning[0] == "E" && tuning[1] == "A")//0
+        // return "Standard E";
   
-      if (tuning[0] == "C#" && tuning[1] == "G#")//-1
+      // if (tuning[0] == "D#" && tuning[1] == "G#")//-1
+      //   return "Standard D#";
+  
+      // if (tuning[0] == "D" && tuning[1] == "G")//-2
+      //   return "Standard D";
+  
+      // if (tuning[0] == "C#" && tuning[1] == "F#")//-3
+      //   return "Standard C#";
+      
+      // (6-str) drops
+      if (isEqual = (tuning, ["D", "A", "D", "G", "B", "E"]))//0
+        return "Drop D";
+
+      if (isEqual = (tuning, ["C#", "G#", "C#", "F#", "A#", "D#"]))//-1
         return "Drop C#";
   
-      if (tuning[0] == "C" && tuning[1] == "G")//-2
+      if (isEqual = (tuning, ["C", "G", "C", "F", "A", "D"]))//-2
         return "Drop C";
   
-      if (tuning[0] == "B" && tuning[1] == "F#")//-3
+      if (isEqual = (tuning, ["B", "F#", "B", "E", "G#", "C#"]))//-3
         return "Drop B";
+      
+      // if (tuning[0] == "D" && tuning[1] == "A")//0
+      //   return "Drop D";
+  
+      // if (tuning[0] == "C#" && tuning[1] == "G#")//-1
+      //   return "Drop C#";
+  
+      // if (tuning[0] == "C" && tuning[1] == "G")//-2
+      //   return "Drop C";
+  
+      // if (tuning[0] == "B" && tuning[1] == "F#")//-3
+      //   return "Drop B";
     }
 
     function getColor(tuning) {
