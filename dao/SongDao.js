@@ -30,8 +30,7 @@ export default class SongDao {
 
   async getById(id) {
     const data = await this.loadData();
-    console.log(data);
-    // const result = data.find(s => s.id == id) || null;
+    const result = data.find(s => s.id == id) || null;console.log(result);
 
     // if (!result)
     //   return null;
