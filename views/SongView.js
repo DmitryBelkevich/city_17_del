@@ -59,8 +59,8 @@ export default class SongView {
   setSettings() {
     const element = document.getElementById("settings");
 
-    var voice = this.#song.voices[0];
-    var instrument = this.#song.instruments[1].title;
+    // var voice = this.#song.voices[0];
+    // var instrument = this.#song.instruments[1].title;
     
     // element.innerHTML = voice + " " + instrument;
   }
