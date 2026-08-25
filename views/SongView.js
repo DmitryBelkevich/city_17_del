@@ -75,7 +75,46 @@ export default class SongView {
     if (!this.#song.tuning)
       this.#song.tuning = ["E", "A", "D", "G", "B", "E"];
     
-    function getTitle(tuning) {
+    var title = this.getTitle(this.#song.tuning);
+    var color = this.getColor(this.#song.tuning);
+    
+    const element = document.getElementById("tuning");
+    
+    element.style.color = color;
+    element.innerHTML = "Guitar tuning: " + title +" [" + this.#song.tuning + "]";
+  }
+  
+  async setText() {
+    // Fetch the external HTML file
+    const data = await this.loadData(this.#song.text);
+    
+    const element = document.getElementById("text");
+    element.innerHTML = data;
+  }
+  
+  async loadData(path) {
+    const storage = "https://dmitrybelkevich.github.io/city_17/storage/Text & Chords/";
+    
+    try {
+      // 1. Wait for the server headers and response status
+      const response = await fetch(storage + path);
+      
+      // 2. Check if the HTTP status code is successful (200-299)
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      
+      // 3. Wait for the full body data to download and parse as text
+      const data = await response.text();
+      
+      return data;
+    } catch (error) {
+      // 4. Handle network errors or parsing issues
+      console.error('Fetch failed:', error);
+    }
+  }
+
+  getTitle(tuning) {
       const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
 
       // *** Guitars (6 strings) ***
@@ -149,49 +188,10 @@ export default class SongView {
         return "Standard C#";
     }
 
-    function getColor(tuning) {
+    getColor(tuning) {
       if (tuning[0] == "E" && tuning[1] == "A")
         return "green";
       
       return "red";
     }
-
-    var title = getTitle(this.#song.tuning);
-    var color = getColor(this.#song.tuning);
-    
-    const element = document.getElementById("tuning");
-    
-    element.style.color = color;
-    element.innerHTML = "Guitar tuning: " + title +" [" + this.#song.tuning + "]";
-  }
-  
-  async setText() {
-    // Fetch the external HTML file
-    const data = await this.loadData(this.#song.text);
-    
-    const element = document.getElementById("text");
-    element.innerHTML = data;
-  }
-  
-  async loadData(path) {
-    const storage = "https://dmitrybelkevich.github.io/city_17/storage/Text & Chords/";
-    
-    try {
-      // 1. Wait for the server headers and response status
-      const response = await fetch(storage + path);
-      
-      // 2. Check if the HTTP status code is successful (200-299)
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      
-      // 3. Wait for the full body data to download and parse as text
-      const data = await response.text();
-      
-      return data;
-    } catch (error) {
-      // 4. Handle network errors or parsing issues
-      console.error('Fetch failed:', error);
-    }
-  }
 }
