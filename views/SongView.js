@@ -18,6 +18,27 @@ export default class SongView {
   setPageTitle() {
     document.title = this.#song.band + " - " + this.#song.title;
   }
+
+  setDisplay() {
+    const element = document.getElementById("display");
+
+    var voice = this.#song.voices[0];
+    var instrument = this.#song.instruments[1].title;
+    
+    // element.innerHTML = voice + " " + instrument;
+  }
+
+  setTitle() {
+    const element = document.getElementById("title");
+    
+    const element_h1 = document.createElement('h1');
+    element_h1.textContent = this.#song.title;
+    element.append(element_h1);
+    
+    const element_h2 = document.createElement('h2');
+    element_h2.textContent = this.#song.band;
+    element.append(element_h2);
+  }
   
   setTabs() {
     document.getElementById("tab_text").addEventListener("click", () => {
@@ -79,27 +100,6 @@ export default class SongView {
       element.style.color = "red";
     
     element.innerHTML = "Guitar tuning: " + tuningTitle +" [" + this.#song.tuning + "]";
-  }
-  
-  setDisplay() {
-    const element = document.getElementById("display");
-
-    var voice = this.#song.voices[0];
-    var instrument = this.#song.instruments[1].title;
-    
-    element.innerHTML = voice + " " + instrument;
-  }
-  
-  setTitle() {
-    const element = document.getElementById("title");
-    
-    const element_h1 = document.createElement('h1');
-    element_h1.textContent = this.#song.title;
-    element.append(element_h1);
-    
-    const element_h2 = document.createElement('h2');
-    element_h2.textContent = this.#song.band;
-    element.append(element_h2);
   }
   
   async setText() {
