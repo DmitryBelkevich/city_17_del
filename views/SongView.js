@@ -68,17 +68,25 @@ export default class SongView {
   setTuning() {
     this.#song.instruments.forEach((instrument, index) => {
       // console.log(`${index}: ${instrument}`);
-      console.log(instrument);
-      console.log(instrument.title + " tuning: " + this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]");
+      // console.log(instrument);
+      // console.log(instrument.title + " tuning: " + this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]");
     });
     
-    if (!this.#song.tuning)
-      this.#song.tuning = ["E", "A", "D", "G", "B", "E"];
+    // if (!this.#song.tuning)
+      // this.#song.tuning = ["E", "A", "D", "G", "B", "E"];
     
-    var title = this.getTitle(this.#song.tuning);
-    var color = this.getColor(this.#song.tuning);
+    // var title = this.getTitle(this.#song.tuning);
+    // var color = this.getColor(this.#song.tuning);
     
     const element = document.getElementById("tuning");
+
+    this.#song.instruments.forEach((instrument, index) => {
+      const element_div = document.createElement('div');
+      // element_div.textContent = instrument.tuning;
+
+      const str = this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]";
+      console.log(str);
+    });
     
     element.style.color = color;
     element.innerHTML = "Guitar tuning: " + title +" [" + this.#song.tuning + "]";
