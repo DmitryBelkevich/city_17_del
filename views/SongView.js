@@ -208,12 +208,12 @@ console.log(isEqual(tuning, ["E", "A", "D", "G", "B", "E"]));
       return "red";
 
     // *** Bass Guitars ***
-console.log(isEqual(tuning, ["E", "A", "D", "G", "B", "E"]));
+console.log(isEqual(tuning, ["E", "A", "D", "G"]));
     if (!isEqual(tuning, ["E", "A", "D", "G"]))
       return "red";
 
     // *** 5-strings Bass Guitars ***
-    console.log(isEqual(tuning, ["E", "A", "D", "G", "B", "E"]));
+    console.log(isEqual(tuning, ["B", "E", "A", "D", "G"]));
     if (!isEqual(tuning, ["B", "E", "A", "D", "G"]))
       return "red";
     
