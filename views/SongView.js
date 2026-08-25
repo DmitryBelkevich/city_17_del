@@ -201,20 +201,19 @@ export default class SongView {
   
   getColor(tuning) {
     const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
-
-    console.log(isEqual(tuning, ["E", "A", "D", "G", "B", "E"]));
+    
     // *** Guitars ***
-
+console.log(isEqual(tuning, ["E", "A", "D", "G", "B", "E"]));
     if (!isEqual(tuning, ["E", "A", "D", "G", "B", "E"]))
       return "red";
 
     // *** Bass Guitars ***
-
+console.log(isEqual(tuning, ["E", "A", "D", "G", "B", "E"]));
     if (!isEqual(tuning, ["E", "A", "D", "G"]))
       return "red";
 
     // *** 5-strings Bass Guitars ***
-    
+    console.log(isEqual(tuning, ["E", "A", "D", "G", "B", "E"]));
     if (!isEqual(tuning, ["B", "E", "A", "D", "G"]))
       return "red";
     
