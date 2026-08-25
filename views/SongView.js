@@ -66,8 +66,8 @@ export default class SongView {
   }
 
   setTuning() {
-    this.#song.instruments.forEach((instrument, i) => {
-      console.log('${i} ${instrument}');
+    this.#song.instruments.forEach((instrument, index) => {
+      console.log(`${index}: ${instrument}`);
     });
     
     if (!this.#song.tuning)
