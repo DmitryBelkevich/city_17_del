@@ -5,7 +5,6 @@ export default class Song {
   #text;
   #score;
   #playback;
-  #tuning;
   #voices = [];
   #instruments = [];
   
@@ -55,14 +54,6 @@ export default class Song {
 
   set playback(playback) {
     this.#playback = playback;
-  }
-
-  get tuning() {
-    return this.#tuning;
-  }
-
-  set tuning(tuning) {
-    this.#tuning = tuning;
   }
   
   get voices() {
