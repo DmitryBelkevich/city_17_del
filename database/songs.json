@@ -3750,6 +3750,17 @@
     "playback": "https://drive.google.com/drive/folders/1kAO8UQOJDVEkZO20RzU3Ts7GDxsB-rHt?usp=drive_link",
     "visible": "true"
   },
+  
+  {
+    "id": "1000",
+    "band": "Band", "title": "Title",
+    "genre": "",
+    "text": "test.html",
+    "score": "",
+    "playback": "",
+    "tuning": ["E", "A", "D", "G", "B", "E"],
+    "visible": "true"
+  }
   {
     "id": "0",
     "band": "Band", "title": "Title",
