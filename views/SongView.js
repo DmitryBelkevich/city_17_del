@@ -66,6 +66,9 @@ export default class SongView {
   }
 
   setTuning() {
+    console.log(this.#song.voices);
+    console.log(this.#song.instruments);
+    
     if (!this.#song.tuning)
       this.#song.tuning = ["E", "A", "D", "G", "B", "E"];
     
