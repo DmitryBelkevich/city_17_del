@@ -65,19 +65,19 @@ export default class Song {
     this.#tuning = tuning;
   }
   
-  get voices() {
+  get voices() {console.log("getter");
     return this.#voices;
   }
 
-  set voices(voices) {
+  set voices(voices) {console.log("setter");
     this.#voices = voices;
   }
   
-  get instruments() {
+  get instruments() {console.log("getter");
     return this.#instruments;
   }
 
-  set instruments(instruments) {
+  set instruments(instruments) {console.log("setter");
     this.#instruments = instruments;
   }
 }
