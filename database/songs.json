@@ -3759,7 +3759,7 @@
     "score": "",
     "playback": "",
     "tuning": ["E", "A", "D", "G", "B", "E"],
-    "instruments", "000",
+    "instruments": [],
     "visible": "true"
   },
   
