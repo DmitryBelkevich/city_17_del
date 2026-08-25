@@ -3759,6 +3759,15 @@
     "score": "",
     "playback": "",
     "tuning": ["E", "A", "D", "G", "B", "E"],
+    "instruments": {
+      "Guitar": {
+        "tuning": ["D", "A", "D", "G", "B", "E"],
+        "Capo": "+3"
+      },
+      "Bass Guitar": {
+        "tuning": ["D", "A", "D", "G"]
+      }
+    },
     "visible": "true"
   }
   {
