@@ -189,9 +189,23 @@ export default class SongView {
     }
 
     getColor(tuning) {
-      if (tuning[0] == "E" && tuning[1] == "A")
-        return "green";
+      const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
+
+      // *** Guitars ***
+
+      if (!isEqual(tuning, ["E", "A", "D", "G", "B", "E"]))
+        return "red";
+
+      // *** Bass Guitars ***
+
+      if (!isEqual(tuning, ["E", "A", "D", "G"]))
+        return "red";
+
+      // *** 5-strings Bass Guitars ***
       
-      return "red";
+      if (!isEqual(tuning, ["B", "E", "A", "D", "G"]))
+        return "red";
+      
+      return "green";
     }
 }
