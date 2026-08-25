@@ -88,7 +88,7 @@ export default class SongView {
 
       const color = this.getColor(instrument.tuning);
       console.log(color);
-      element_div.style.color = color);
+      element_div.style.color = color;
       
       element.append(element_div);
     });
