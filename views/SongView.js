@@ -85,12 +85,12 @@ export default class SongView {
       // element_div.textContent = instrument.tuning;
 
       const str = this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]";
-      console.log(str);
+      element.append(element_div);
     });
     
     // element.style.color = color;
-    element.innerHTML = "Guitar tuning: " + title +" [" + this.#song.tuning + "]";
-    element.append(element_div);
+    // element.innerHTML = "Guitar tuning: " + title +" [" + this.#song.tuning + "]";
+    
   }
   
   async setText() {
