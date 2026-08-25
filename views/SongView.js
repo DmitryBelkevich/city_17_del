@@ -78,7 +78,9 @@ export default class SongView {
     function getTitle(tuning) {
       const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
 
-      // (6-str) standards
+      // *** Guitars (6 strings) ***
+      
+      // standards
       if (isEqual(tuning, ["E", "A", "D", "G", "B", "E"]))//0
         return "Standard E";
 
@@ -91,20 +93,7 @@ export default class SongView {
       if (isEqual(tuning, ["C#", "F#", "B", "E", "G#", "C#"]))//-3
         return "Standard C#";
       
-      // standards
-      // if (tuning[0] == "E" && tuning[1] == "A")//0
-        // return "Standard E";
-  
-      // if (tuning[0] == "D#" && tuning[1] == "G#")//-1
-      //   return "Standard D#";
-  
-      // if (tuning[0] == "D" && tuning[1] == "G")//-2
-      //   return "Standard D";
-  
-      // if (tuning[0] == "C#" && tuning[1] == "F#")//-3
-      //   return "Standard C#";
-      
-      // (6-str) drops
+      // drops
       if (isEqual(tuning, ["D", "A", "D", "G", "B", "E"]))//0
         return "Drop D";
 
@@ -116,18 +105,48 @@ export default class SongView {
   
       if (isEqual(tuning, ["B", "F#", "B", "E", "G#", "C#"]))//-3
         return "Drop B";
-      
-      // if (tuning[0] == "D" && tuning[1] == "A")//0
-      //   return "Drop D";
+
+      // *** Bass Guitars (4 strings) ***
+
+      // standards
+      if (isEqual(tuning, ["E", "A", "D", "G"]))//0
+        return "Standard E";
+
+      if (isEqual(tuning, ["D#", "G#", "C#", "F#"]))//-1
+        return "Standard D#";
   
-      // if (tuning[0] == "C#" && tuning[1] == "G#")//-1
-      //   return "Drop C#";
+      if (isEqual(tuning, ["D", "G", "C", "F"]))//-2
+        return "Standard D";
   
-      // if (tuning[0] == "C" && tuning[1] == "G")//-2
-      //   return "Drop C";
+      if (isEqual(tuning, ["C#", "F#", "B", "E"]))//-3
+        return "Standard C#";
+
+      // drops
+      if (isEqual(tuning, ["D", "A", "D", "G"]))//0
+        return "Drop D";
+
+      if (isEqual(tuning, ["C#", "G#", "C#", "F#"]))//-1
+        return "Drop C#";
   
-      // if (tuning[0] == "B" && tuning[1] == "F#")//-3
-      //   return "Drop B";
+      if (isEqual(tuning, ["C", "G", "C", "F"]))//-2
+        return "Drop C";
+  
+      if (isEqual(tuning, ["B", "F#", "B", "E"]))//-3
+        return "Drop B";
+
+      // *** Bass Guitars (5 strings) ***
+
+      if (isEqual(tuning, ["B", "E", "A", "D", "G"]))//0
+        return "Standard E";
+
+      if (isEqual(tuning, ["D#", "D#", "G#", "C#", "F#", "A#"]))//-1
+        return "Standard D#";
+  
+      if (isEqual(tuning, ["A", "D", "G", "C", "F"]))//-2
+        return "Standard D";
+  
+      if (isEqual(tuning, ["G#", "C#", "F#", "B", "E"]))//-3
+        return "Standard C#";
     }
 
     function getColor(tuning) {
