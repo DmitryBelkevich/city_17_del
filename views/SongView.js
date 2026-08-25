@@ -69,42 +69,48 @@ export default class SongView {
     if (!this.#song.tuning)
       this.#song.tuning = ["E", "A", "D", "G", "B", "E"];
     
-    var tuningTitle;
+    function getTitle(tuning) {
+      // standards
+      if (tuning[0] == "E" && tuning[1] == "A")//0
+        return "Standard E";
+  
+      if (tuning[0] == "D#" && tuning[1] == "G#")//-1
+        return "Standard D#";
+  
+      if (tuning[0] == "D" && tuning[1] == "G")//-2
+        return "Standard D";
+  
+      if (tuning[0] == "C#" && tuning[1] == "F#")//-3
+        return "Standard C#";
+      
+      // drops
+      if (tuning[0] == "D" && tuning[1] == "A")//0
+        return "Drop D";
+  
+      if (tuning[0] == "C#" && tuning[1] == "G#")//-1
+        return "Drop C#";
+  
+      if (tuning[0] == "C" && tuning[1] == "G")//-2
+        return "Drop C";
+  
+      if (tuning[0] == "B" && tuning[1] == "F#")//-3
+        return "Drop B";
+    }
 
-    // standards
-    if (this.#song.tuning[0] == "E" && this.#song.tuning[1] == "A")//0
-      tuningTitle = "Standard E";
+    function getColor(tuning) {
+      if (tuning[0] == "E" && tuning[1] == "A")
+        return "green";
+      
+      return "red";
+    }
 
-    if (this.#song.tuning[0] == "D#" && this.#song.tuning[1] == "G#")//-1
-      tuningTitle = "Standard D#";
-
-    if (this.#song.tuning[0] == "D" && this.#song.tuning[1] == "G")//-2
-      tuningTitle = "Standard D";
-
-    if (this.#song.tuning[0] == "C#" && this.#song.tuning[1] == "F#")//-3
-      tuningTitle = "Standard C#";
+    var title = getTitle(this.#song.tuning);
+    var color = getColor(this.#song.tuning);
     
-    // drops
-    if (this.#song.tuning[0] == "D" && this.#song.tuning[1] == "A")//0
-      tuningTitle = "Drop D";
-
-    if (this.#song.tuning[0] == "C#" && this.#song.tuning[1] == "G#")//-1
-      tuningTitle = "Drop C#";
-
-    if (this.#song.tuning[0] == "C" && this.#song.tuning[1] == "G")//-2
-      tuningTitle = "Drop C";
-
-    if (this.#song.tuning[0] == "B" && this.#song.tuning[1] == "F#")//-3
-      tuningTitle = "Drop B";
-
     const element = document.getElementById("tuning");
-
-    if (this.#song.tuning[0] == "E" && this.#song.tuning[1] == "A")
-      element.style.color = "green";
-    else
-      element.style.color = "red";
     
-    element.innerHTML = "Guitar tuning: " + tuningTitle +" [" + this.#song.tuning + "]";
+    element.style.color = color;
+    element.innerHTML = "Guitar tuning: " + title +" [" + this.#song.tuning + "]";
   }
   
   async setText() {
