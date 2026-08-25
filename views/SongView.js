@@ -79,16 +79,16 @@ export default class SongView {
       const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
 
       // (6-str) standards
-      if (isEqual = (tuning, ["E", "A", "D", "G", "B", "E"]))//0
+      if (isEqual(tuning, ["E", "A", "D", "G", "B", "E"]))//0
         return "Standard E";
 
-      if (isEqual = (tuning, ["D#", "G#", "C#", "F#", "A#", "D#"]))//-1
+      if (isEqual(tuning, ["D#", "G#", "C#", "F#", "A#", "D#"]))//-1
         return "Standard D#";
   
-      if (isEqual = (tuning, ["D", "G", "C", "F", "A", "D"]))//-2
+      if (isEqual(tuning, ["D", "G", "C", "F", "A", "D"]))//-2
         return "Standard D";
   
-      if (isEqual = (tuning, ["C#", "F#", "B", "E", "G#", "C#"]))//-3
+      if (isEqual(tuning, ["C#", "F#", "B", "E", "G#", "C#"]))//-3
         return "Standard C#";
       
       // standards
@@ -105,16 +105,16 @@ export default class SongView {
       //   return "Standard C#";
       
       // (6-str) drops
-      if (isEqual = (tuning, ["D", "A", "D", "G", "B", "E"]))//0
+      if (isEqual(tuning, ["D", "A", "D", "G", "B", "E"]))//0
         return "Drop D";
 
-      if (isEqual = (tuning, ["C#", "G#", "C#", "F#", "A#", "D#"]))//-1
+      if (isEqual(tuning, ["C#", "G#", "C#", "F#", "A#", "D#"]))//-1
         return "Drop C#";
   
-      if (isEqual = (tuning, ["C", "G", "C", "F", "A", "D"]))//-2
+      if (isEqual(tuning, ["C", "G", "C", "F", "A", "D"]))//-2
         return "Drop C";
   
-      if (isEqual = (tuning, ["B", "F#", "B", "E", "G#", "C#"]))//-3
+      if (isEqual(tuning, ["B", "F#", "B", "E", "G#", "C#"]))//-3
         return "Drop B";
       
       // if (tuning[0] == "D" && tuning[1] == "A")//0
