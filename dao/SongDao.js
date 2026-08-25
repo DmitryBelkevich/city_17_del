@@ -44,7 +44,7 @@ export default class SongDao {
     song.score = result.score;
     song.playback = result.playback;
     // song.voices = result.voices;
-    song.instruments = result.instruments;console.log(song);
+    song.instruments = result.instruments;console.log(result.voices);
     
     // return song;
   }
