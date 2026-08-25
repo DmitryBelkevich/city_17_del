@@ -3760,14 +3760,17 @@
     "playback": "",
     "tuning": ["E", "A", "D", "G", "B", "E"],
     "instruments": [
-      "Guitar 1": {
+      {
+        "title", "Guitar 1",
         "capo": "+3"
       },
-      "Guitar 2": {
+      {
+        "title", "Guitar 2",
         "tuning": ["D", "A", "D", "G", "B", "E"],
         "capo": "+3"
       },
-      "Bass Guitar": {
+      {
+        "title", "Bass Guitar",
         "tuning": ["D", "A", "D", "G"]
       }
     ],
