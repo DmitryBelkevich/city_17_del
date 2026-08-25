@@ -117,7 +117,7 @@ export default class SongView {
   getTitle(tuning) {
       const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
 
-      // *** Guitars (6 strings) ***
+      // *** Guitars ***
       
       // standards
       if (isEqual(tuning, ["E", "A", "D", "G", "B", "E"]))//0
@@ -145,7 +145,7 @@ export default class SongView {
       if (isEqual(tuning, ["B", "F#", "B", "E", "G#", "C#"]))//-3
         return "Drop B";
 
-      // *** Bass Guitars (4 strings) ***
+      // *** Bass Guitars ***
 
       // standards
       if (isEqual(tuning, ["E", "A", "D", "G"]))//0
@@ -173,7 +173,7 @@ export default class SongView {
       if (isEqual(tuning, ["B", "F#", "B", "E"]))//-3
         return "Drop B";
 
-      // *** Bass Guitars (5 strings) ***
+      // *** 5-strings Bass Guitars ***
 
       if (isEqual(tuning, ["B", "E", "A", "D", "G"]))//0
         return "Standard E";
