@@ -15,6 +15,16 @@
     "text": "Metal/Metallica/Metallica - Nothing Else Matters.html",
     "score": "https://drive.google.com/file/d/1yz-dUif-3ehfv3SGH9QsMgCPgjxWShVD/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1qaR_e-oC31i2ZvcdOpBMFQopTgw2g226?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["B", "E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -33,7 +43,16 @@
     "text": "Metal/Rammstein/Rammstein - Frühling in Paris.html",
     "score": "https://drive.google.com/file/d/1YFcic0p8Jk7rIsxgaDejDqhqZUjynocF/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1uonP7FarzqCpvI-i72565dCW2NJRkS5I?usp=drive_link",
-    "tuning": ["D", "A", "D", "G", "B", "E"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["D", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -43,6 +62,16 @@
     "text": "Metal/Rammstein/Rammstein - Mutter.html",
     "score": "https://drive.google.com/file/d/10yt42kfVWMhuQc1aOf-D-a54sGIvHZle/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1Ey6hUk0hOQhsfeJ9VdlpdMY7uIWmi9Bw?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["B", "E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -52,7 +81,16 @@
     "text": "Metal/Rammstein/Rammstein - Sonne.html",
     "score": "https://drive.google.com/file/d/1hNVfnFpn67I2RIv_amjoPQn7GX8bw3wr/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1iCS1jN_MQllmKL43_uuzOy8LJ6eeqCQT?usp=drive_link",
-    "tuning": ["D", "A", "D", "G", "B", "E"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["D", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -62,7 +100,16 @@
     "text": "Metal/System of a Down/System of a Down - Aerials.html",
     "score": "https://drive.google.com/file/d/1wc1vbPnNmv-XEtvDmU44uwvdvd7yDkLM/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/10-lII3oYIwen-4AY3TI0YfLyf_njJq-t?usp=drive_link",
-    "tuning": ["C", "G", "C", "F", "A", "D"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["C", "G", "C", "F", "A", "D"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["C", "G", "C", "F"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -72,7 +119,16 @@
     "text": "Metal/System of a Down/System of a Down - Chop Suey!.html",
     "score": "https://drive.google.com/file/d/1v6HtvOpiX96JdH-SelHMEg6m-4ZK1S7M/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1tacbbM11jp5E60IaWX0rNCzy5Et2OsN8?usp=drive_link",
-    "tuning": ["C", "G", "C", "F", "A", "D"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["C", "G", "C", "F", "A", "D"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["C", "G", "C", "F"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -82,7 +138,16 @@
     "text": "Metal/System of a Down/System of a Down - Lonely Day.html",
     "score": "https://drive.google.com/file/d/1Xr0QUfaBNugsVc_W3NMH3paBfovH1vrc/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1CjOs7eybz-6riE14VolKm2xZuZ8_NQOT?usp=drive_link",
-    "tuning": ["D", "A", "D", "G", "B", "E"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["D", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -92,7 +157,16 @@
     "text": "Metal/System of a Down/System of a Down - Toxicity.html",
     "score": "https://drive.google.com/file/d/1_TmPCZIYh7ptvnDBPZ3bXEQGa7if3kvX/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1w5YuiHbulFeAZ5o8GMZV-Dx7RXTjb7tX?usp=drive_link",
-    "tuning": ["C", "G", "C", "F", "A", "D"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["C", "G", "C", "F", "A", "D"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["C", "G", "C", "F"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -103,7 +177,16 @@
     "text": "Metal/Stigmata/Stigmata - Сентябрь.html",
     "score": "https://drive.google.com/file/d/1ofOoPhPPoHpfqv3BVIM3bMiPZrhNq9t9/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1iEhSRH8mU4giToZTHCu4DKpWYhmP8vGa?usp=drive_link",
-    "tuning": ["B", "F#", "B", "E", "G#", "C#"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["B", "F#", "B", "E", "G#", "C#"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["B", "F#", "B", "E"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -140,7 +223,16 @@
     "text": "Metal/Ария/Ария - Там высоко.html",
     "score": "https://drive.google.com/file/d/1Kfod3B8jVAZd_-HupOqehgvsa5AThsNg/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/17qQF5qMhdmFp5c74DlZVu5OHcdsphtw2?usp=drive_link",
-    "tuning": ["D#", "G#", "C#", "F#", "A#", "D#"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D#", "G#", "C#", "F#", "A#", "D#"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["D#", "G#", "C#", "F#"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -168,6 +260,16 @@
     "text": "Metal/Кипелов/Кипелов - Я свободен!.html",
     "score": "https://drive.google.com/file/d/1xkSwpQp7QG6_qKK5BCv9KCTieFM_YGXo/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1NzZgkt2VJ07ge67Xkyp6mceYfJQSX0aD?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["D", "G", "C", "F"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -177,7 +279,16 @@
     "text": "Metal/Кипелов/Кипелов - Я свободен! (bass).html",
     "score": "https://drive.google.com/file/d/1xkSwpQp7QG6_qKK5BCv9KCTieFM_YGXo/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1NzZgkt2VJ07ge67Xkyp6mceYfJQSX0aD?usp=drive_link",
-    "tuning": ["D", "G", "C", "F"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["D", "G", "C", "F"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -187,7 +298,16 @@
     "text": "Metal/Слот/Слот - Круги на воде.html",
     "score": "https://drive.google.com/file/d/1vss0mNtVDcI0-9uKf6ckbgyXnZqCFoF1/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1jOYtYQkapoxvRZNLmaiubSZ01xmYpc63?usp=drive_link",
-    "tuning": ["B", "F#", "B", "E", "G#", "C#"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["B", "F#", "B", "E", "G#", "C#"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["B", "E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -206,7 +326,16 @@
     "text": "Metal/Эпидемия/Эпидемия - Эпилог.html",
     "score": "https://drive.google.com/file/d/1D3Pf2G_WPgvP2eqsIInpSA2-xEaJmXxV/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1kgIDiQZDsbHGTgFG-xb6qxrb8PIxSjXU?usp=drive_link",
-    "tuning": ["D#", "G#", "C#", "F#", "A#", "D#"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D#", "G#", "C#", "F#", "A#", "D#"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["D#", "G#", "C#", "F#"]
+      }
+    ],
     "visible": "true"
   },
   
@@ -217,7 +346,16 @@
     "text": "Rock, Punk/Guns N’ Roses/Guns N’ Roses - Don't Cry.html",
     "score": "https://drive.google.com/file/d/174W1Z8uXUpc9g8jWtNT-0_NjZxtQ9XFB/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/12VGkAeePdGSKgLKUEV0GGIY9xjMElYiu?usp=drive_link",
-    "tuning": ["D#", "G#", "C#", "F#", "A#", "D#"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D#", "G#", "C#", "F#", "A#", "D#"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["D#", "G#", "C#", "F#"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -237,7 +375,17 @@
     "text": "Rock, Punk/Joan Osborne/Joan Osborne - One of Us.html",
     "score": "https://drive.google.com/file/d/1dNgHW5nIDbkENnTqnzqlzyaFQ2QMss41/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1K62TmDpdAO0oKLPLcFJo9BAhR7VzCtc6?usp=drive_link",
-    "tuning": "Capo: +2",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "2"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -247,6 +395,17 @@
     "text": "Rock, Punk/Joan Osborne/Joan Osborne - One of Us (bass).html",
     "score": "https://drive.google.com/file/d/1dNgHW5nIDbkENnTqnzqlzyaFQ2QMss41/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1K62TmDpdAO0oKLPLcFJo9BAhR7VzCtc6?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "2"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -266,6 +425,16 @@
     "text": "Rock, Punk/Linkin Park/Linkin Park - Numb.html",
     "score": "https://drive.google.com/file/d/1c7ahKsrGa7cr-lxYvjV4aei1-JyZe3Yv/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1Bnemg-4GgfF7wa6ZXnXs7jl9xa6YJTpm?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["C#", "G#", "C#", "F#", "A#", "D#"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["C#", "G#", "C#", "F#"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -320,6 +489,12 @@
     "text": "Rock, Punk/The Beatles/The Beatles - Yesterday.html",
     "score": "https://drive.google.com/file/d/18WpYZ37o3x1uJUmFrslxzDar-6S52hJo/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1Q4BopOKCKtD_QQPz5k7LMTdOfbl8A3Vd?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D", "G", "C", "F", "A", "D"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -338,6 +513,17 @@
     "text": "Rock, Punk/The Rolling Stones/The Rolling Stones - Paint It Black.html",
     "score": "https://drive.google.com/file/d/18SXrwiQC8MsbBDYofiXl9JyQZREyMNjN/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1HFyp4Cl05oUFBQdZ6V2xWQ2S3sVNb-hF?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "2"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -417,6 +603,12 @@
     "text": "Rock, Punk/Lumen/Lumen - Гореть.html",
     "score": "https://drive.google.com/file/d/1-tB5-LEqBzQ-0TD-iKPkKEnbnmw8cdOg/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1piVnyg8IhQ8yNqzRw6_4A1FAYiIgFB1v?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D", "G", "C", "F", "A", "D"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -464,6 +656,17 @@
     "text": "Rock, Punk/Аквариум/Аквариум - Город золотой.html",
     "score": "https://drive.google.com/file/d/1sDnVQIPJLjd1RLNIGxdVOq4W18XIguov/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1EkgqJ9tYQ_R_d5Oj-d5ZuGBhwTrKhKOT?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "2"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -491,7 +694,20 @@
     "text": "Rock, Punk/Антон Токарев/Антон Токарев - Седьмой лепесток.html",
     "score": "",
     "playback": "https://drive.google.com/drive/folders/1M_jW1kq2Nlh3vTB8FcRcC-9Q3OGQsjCr?usp=drive_link",
-    "tuning": "Capo: +6",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "6"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
+    "instruments": [
+      
+    ],
     "visible": "true"
   },
   {
@@ -501,6 +717,17 @@
     "text": "Rock, Punk/Антон Токарев/Антон Токарев - Седьмой лепесток (bass).html",
     "score": "",
     "playback": "https://drive.google.com/drive/folders/1M_jW1kq2Nlh3vTB8FcRcC-9Q3OGQsjCr?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "6"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -760,8 +987,19 @@
     "band": "ДДТ", "title": "Песня о свободе",
     "genre": "Rock, Punk",
     "text": "Rock, Punk/ДДТ/ДДТ - Песня о свободе.html",
-    "score": "",
+    "score": "https://drive.google.com/file/d/1HXGRBoGMUORyZkM1OgVHi3Ukj0G6IuYR/view?usp=drive_link",
     "playback": "https://drive.google.com/file/d/1HXGRBoGMUORyZkM1OgVHi3Ukj0G6IuYR/view?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "3"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -769,8 +1007,19 @@
     "band": "ДДТ", "title": "Песня о свободе",
     "genre": "Rock, Punk",
     "text": "Rock, Punk/ДДТ/ДДТ - Песня о свободе (bass).html",
-    "score": "",
+    "score": "https://drive.google.com/file/d/1HXGRBoGMUORyZkM1OgVHi3Ukj0G6IuYR/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/16mVE4iegYnhYoMbBPCQapWbwM-2XAyX3?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "3"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -780,6 +1029,17 @@
     "text": "Rock, Punk/ДДТ/ДДТ - Просвистела.html",
     "score": "https://drive.google.com/file/d/19Du4f0244a5b_KhNixdCzTdexuMK9IJo/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1rNWj98ziApT6giq2fpi0lfsmjfOH2e6U?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "2"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -789,6 +1049,17 @@
     "text": "Rock, Punk/ДДТ/ДДТ - Просвистела (bass).html",
     "score": "https://drive.google.com/file/d/19Du4f0244a5b_KhNixdCzTdexuMK9IJo/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1rNWj98ziApT6giq2fpi0lfsmjfOH2e6U?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "2"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -861,6 +1132,17 @@
     "text": "Rock, Punk/Звери/Звери - Напитки покрепче.html",
     "score": "https://drive.google.com/file/d/1oDZtE4Hq7z6U-IQX3e4GOr9Fyux5PThr/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1h0NmvoDy7rpGiN2yA9DN7H5zY9nD9JeN?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "3"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -870,6 +1152,17 @@
     "text": "Rock, Punk/Звери/Звери - Напитки покрепче (bass).html",
     "score": "https://drive.google.com/file/d/1oDZtE4Hq7z6U-IQX3e4GOr9Fyux5PThr/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1h0NmvoDy7rpGiN2yA9DN7H5zY9nD9JeN?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "3"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -1331,6 +1624,17 @@
     "text": "Rock, Punk/Комната культуры/Комната культуры - Поезда.html",
     "score": "https://drive.google.com/file/d/1MQ796S-_aWUagbADHZXbht-xT3ZMKR5E/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1cRnbIuaPHRkS3hPNmnoNFEUN8ctUEAoh?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "3"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -1493,6 +1797,16 @@
     "text": "Rock, Punk/Король и Шут/Король и Шут - Мёртвый Анархист.html",
     "score": "https://drive.google.com/file/d/1JW-R9NFabwBvZjbPcxU-dMXVQpFHKUrS/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1s2b-6iC0Nsm-ISrVv4sOZtHYb7I28l1s?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["D", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -1865,6 +2179,16 @@
     "text": "Rock, Punk/Маша и Медведи/Маша и Медведи - Земля.html",
     "score": "https://drive.google.com/file/d/15uBPh1TjYc6VRE5kvaarJ-e5DZCv4_SQ/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1vgQ0Qe9MHEp-bFOoKWm8tgiuCHghJZmY?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["B", "E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2025,6 +2349,17 @@
     "text": "Rock, Punk/Нервы/Нервы - Кофе - мой друг.html",
     "score": "https://drive.google.com/drive/folders/1T4gKNkiAOWfrgMc0-WdLkWjJvCXH50Hv?usp=drive_link",
     "playback": "https://drive.google.com/file/d/1Cc9tpN1Cj_yxd-A3Htjr-rgFRiGgguN2/view?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D", "A", "D", "G", "B", "E"],
+        "capo": "4"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2034,6 +2369,17 @@
     "text": "Rock, Punk/Нервы/Нервы - Кофе - мой друг (e.guitars, bass).html",
     "score": "https://drive.google.com/file/d/1Cc9tpN1Cj_yxd-A3Htjr-rgFRiGgguN2/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1T4gKNkiAOWfrgMc0-WdLkWjJvCXH50Hv?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D", "A", "D", "G", "B", "E"],
+        "capo": "4"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2043,6 +2389,16 @@
     "text": "Rock, Punk/Нервы/Нервы - Самый дорогой человек.html",
     "score": "https://drive.google.com/file/d/1X-mgquBptTsrph2Te_mCVh6wdZS43OYf/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/13-_uWEseKyl8HSyYC60lTvTACmTbzZ3d?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["B", "E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2052,6 +2408,17 @@
     "text": "Rock, Punk/Нервы/Нервы - Слишком влюблён.html",
     "score": "https://drive.google.com/file/d/1zLqm3-3tEdAUqhhVPx5orRcc32iiVxeU/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1hzS0kuO0cRDuSWAdG8tMS04I8NGIcMLA?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "4"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2061,6 +2428,17 @@
     "text": "Rock, Punk/Нервы/Нервы - Слишком влюблён (bass).html",
     "score": "https://drive.google.com/file/d/1zLqm3-3tEdAUqhhVPx5orRcc32iiVxeU/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1hzS0kuO0cRDuSWAdG8tMS04I8NGIcMLA?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "4"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2106,6 +2484,17 @@
     "text": "Rock, Punk/Порнофильмы/Порнофильмы - Прости. Прощай. Привет.html",
     "score": "https://drive.google.com/file/d/1Kcz1AoX6KzGYmOw4cFW73z3H29ZoY4Bl/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1QmXEaWv_A5sgecyDdfeUl011eHBS4LPg?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "5"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2242,6 +2631,17 @@
     "text": "Rock, Punk/Сплин/Сплин - Линия жизни.html",
     "score": "https://drive.google.com/file/d/1ExxeMbdnsULbWZglbBmkLkq8VlEvDuW3/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1zLRlR4HRy2gd_GqS1AnuLm1tqLoC_7Wk?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "7"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2251,6 +2651,17 @@
     "text": "Rock, Punk/Сплин/Сплин - Линия жизни (bass).html",
     "score": "https://drive.google.com/file/d/1ExxeMbdnsULbWZglbBmkLkq8VlEvDuW3/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1zLRlR4HRy2gd_GqS1AnuLm1tqLoC_7Wk?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "7"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2278,6 +2689,17 @@
     "text": "Rock, Punk/Сплин/Сплин - Романс.html",
     "score": "https://drive.google.com/file/d/1G17H-tthGzUSrl-YhAiEBh9NkPsF_BcQ/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1U0d1V0EuEgLZ2FDdmluiAkvvgZ67OrQe?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "5"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2287,6 +2709,17 @@
     "text": "Rock, Punk/Сплин/Сплин - Романс (bass).html",
     "score": "https://drive.google.com/file/d/1G17H-tthGzUSrl-YhAiEBh9NkPsF_BcQ/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1U0d1V0EuEgLZ2FDdmluiAkvvgZ67OrQe?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "5"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2435,6 +2868,17 @@
     "text": "Pop, Dance/30.02/30.02 - Звёзды в лужах.html",
     "score": "https://drive.google.com/file/d/1IspULpNsZ6ZoKUpCPXUlx4TP7G05IT-9/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1XxomKWH6wugg0OCnvX1L9ANg2jICU9iR?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "2"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2444,6 +2888,17 @@
     "text": "Pop, Dance/30.02/30.02 - Звёзды в лужах (bass).html",
     "score": "https://drive.google.com/file/d/1IspULpNsZ6ZoKUpCPXUlx4TP7G05IT-9/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1XxomKWH6wugg0OCnvX1L9ANg2jICU9iR?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "2"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2453,6 +2908,17 @@
     "text": "Pop, Dance/DaBro/DaBro - Юность.html",
     "score": "",
     "playback": "https://drive.google.com/drive/folders/1BkHgcQloTrw1g_OdSZvu9t9_ALML7KSX?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "1"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2462,6 +2928,17 @@
     "text": "Pop, Dance/DaBro/DaBro - Юность (bass).html",
     "score": "",
     "playback": "https://drive.google.com/drive/folders/1BkHgcQloTrw1g_OdSZvu9t9_ALML7KSX?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "1"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -2964,6 +3441,16 @@
     "text": "Pop, Dance/Нэнси/Нэнси - Дым сигарет с ментолом.html",
     "score": "https://drive.google.com/file/d/1t9_w50bLG2t-MjBDKtlYJKq_XOpYe7Wa/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1WbUH-UEuNx3w157AVa8rpv0MjhH8gY0z?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D", "G", "C", "F", "A", "D"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["D", "G", "C", "F"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3001,6 +3488,17 @@
     "text": "Pop, Dance/Пропаганда/Пропаганда - Мелом.html",
     "score": "https://drive.google.com/file/d/1goZDHum_iKrmjatuKBx2UcL-0PrpOHhl/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1WBLzSdZvBdIKf-AeBmPkUuQ45pCRtyBk?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "1"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3010,6 +3508,17 @@
     "text": "Pop, Dance/Пропаганда/Пропаганда - Мелом (bass).html",
     "score": "https://drive.google.com/file/d/1goZDHum_iKrmjatuKBx2UcL-0PrpOHhl/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1WBLzSdZvBdIKf-AeBmPkUuQ45pCRtyBk?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "1"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3055,6 +3564,17 @@
     "text": "Pop, Dance/Шура/Шура - Ты не верь слезам.html",
     "score": "https://drive.google.com/file/d/1qo6aySz_SveVcrhB1bA_gcKImM38d-0D/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1UigfGjp-99bxqJG3DwDk27WYBtRKsjFq?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "1"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3064,6 +3584,17 @@
     "text": "Pop, Dance/Шура/Шура - Ты не верь слезам (bass).html",
     "score": "https://drive.google.com/file/d/1qo6aySz_SveVcrhB1bA_gcKImM38d-0D/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1UigfGjp-99bxqJG3DwDk27WYBtRKsjFq?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "1"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   
@@ -3161,7 +3692,17 @@
     "text": "Rap, Hip-hop/Noize MC/Noize MC - Вояджер-1.html",
     "score": "https://drive.google.com/file/d/1TAWM8q8cZ2e9gp9LzLy1SET-HTO8b2He/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1Z7WsbnzchrgTyq9E4z8ynZcCiLgEMthy?usp=drive_link",
-    "tuning": "Capo: +5",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "5"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["B", "E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3313,7 +3854,17 @@
     "text": "Indie/Бонд с кнопкой/Бонд с кнопкой - Кухни.html",
     "score": "https://drive.google.com/file/d/12gyf901288UNFGKkXz35oXRrN7w3sm2B/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1sVhnkkaVSZKdo3sl0UUokG1NgMaMOf1O?usp=drive_link",
-    "tuning": "Capo: +1",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "1"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3332,7 +3883,17 @@
     "text": "Indie/Гречка/Гречка - Люби меня люби.html",
     "score": "https://drive.google.com/file/d/1nD9P1XM1vBRqGUSYxLA3p3YiVhpKiOVZ/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1KdtiCMo6wbJ4iVsrvRurcEo_ZBaR_0lB?usp=drive_link",
-    "tuning": "Capo: +6",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "6"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3342,7 +3903,16 @@
     "text": "Indie/Джизус/Джизус - Девочка в классе.html",
     "score": "https://drive.google.com/file/d/1gseW5Vuwdy2PbHVf4-S9J2aEK_dRkehp/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/15mOUhdz2vcT9pp2382tQ9XBPgij7Skil?usp=drive_link",
-    "tuning": ["D", "A", "D", "G", "B", "E"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3370,7 +3940,16 @@
     "text": "Indie/Просто Лера/Просто Лера - Лютики.html",
     "score": "",
     "playback": "https://drive.google.com/drive/folders/1KzMRdRObA6NshtfjPA3TqYnF0h4v887e?usp=drive_link",
-    "tuning": ["D#", "G#", "C#", "F#", "A#", "D#"],
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["D#", "G#", "C#", "F#", "A#", "D#"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["D#", "G#", "C#", "F#"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3436,6 +4015,16 @@
     "text": "Estrada/Алла Пугачёва/Алла Пугачёва - Позови меня с собой.html",
     "score": "https://drive.google.com/file/d/1-Mz1xxVMBrir_dUUPb4NeMdbZid0YuSz/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1L89BfFTngFUIEP1lMj2fPZ2Rgolz-_L-?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"]
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["B", "E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3517,7 +4106,17 @@
     "text": "Estrada/Михаил Боярский/Михаил Боярский - Спасибо, родная.html",
     "score": "https://drive.google.com/file/d/1uXdsiI5v8OJtFC53GJgJ8ygHQRgaEPF_/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1KFYeBadq9WHEovwMwBjpX-ABFetLitxf?usp=drive_link",
-    "tuning": "Capo: +3",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "3"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3527,6 +4126,17 @@
     "text": "Estrada/Михаил Боярский/Михаил Боярский - Спасибо, родная (bass).html",
     "score": "https://drive.google.com/file/d/1uXdsiI5v8OJtFC53GJgJ8ygHQRgaEPF_/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/1KFYeBadq9WHEovwMwBjpX-ABFetLitxf?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Guitar",
+        "tuning": ["E", "A", "D", "G", "B", "E"],
+        "capo": "3"
+      },
+      {
+        "title": "Bass Guitar",
+        "tuning": ["E", "A", "D", "G"]
+      }
+    ],
     "visible": "true"
   },
   {
@@ -3752,40 +4362,12 @@
   },
   
   {
-    "id": "1000",
-    "band": "Band", "title": "Title",
-    "genre": "",
-    "text": "test.html",
-    "score": "",
-    "playback": "",
-    "tuning": ["E", "A", "D", "G", "B", "E"],
-    "voices": ["Voice 1", "Voice 2"],
-    "instruments": [
-      {
-        "title": "Guitar 1",
-        "capo": "+3"
-      },
-      {
-        "title": "Guitar 2",
-        "tuning": ["D", "A", "D", "G", "B", "E"],
-        "capo": "+3"
-      },
-      {
-        "title": "Bass Guitar",
-        "tuning": ["D", "A", "D", "G"]
-      }
-    ],
-    "visible": "true"
-  },
-  
-  {
     "id": "0",
     "band": "Band", "title": "Title",
     "genre": "",
     "text": "Template.html",
     "score": "",
     "playback": "",
-    "tuning": ["E", "A", "D", "G", "B", "E"],
     "visible": "true"
   }
 ]
