@@ -85,7 +85,7 @@ export default class SongView {
       
       const str = this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]";
       element_div.textContent = str;
-      element.style.color = this.getColor(instrument.tuning);
+      element_div.style.color = this.getColor(instrument.tuning);
       
       element.append(element_div);
     });
