@@ -3751,17 +3751,7 @@
     "visible": "true"
   },
   
-  {
-    "id": "1000",
-    "band": "Band", "title": "Title",
-    "genre": "",
-    "text": "test.html",
-    "score": "",
-    "playback": "",
-    "tuning": ["E", "A", "D", "G", "B", "E"],
-    
-    "visible": "true"
-  },
+  
   {
     "id": "0",
     "band": "Band", "title": "Title",
