@@ -69,7 +69,7 @@ export default class SongView {
     this.#song.instruments.forEach((instrument, index) => {
       // console.log(`${index}: ${instrument}`);
       console.log(instrument);
-      console.log(instrument.title + " tuning: " + getTitle(instrument.tuning) + " [" + instrument.tuning + "]");
+      console.log(instrument.title + " tuning: " + this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]");
     });
     
     if (!this.#song.tuning)
