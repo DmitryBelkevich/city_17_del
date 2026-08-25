@@ -3759,6 +3759,7 @@
     "score": "",
     "playback": "",
     "tuning": ["E", "A", "D", "G", "B", "E"],
+    "voices": ["Voice 1", "Voice 2"],
     "instruments": [
       {
         "title": "Guitar 1",
