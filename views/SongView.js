@@ -85,7 +85,10 @@ export default class SongView {
       
       const str = this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]";
       element_div.textContent = str;
-      element_div.style.color = this.getColor(instrument.tuning);
+
+      const color = this.getColor(instrument.tuning);
+      console.log(color);
+      element_div.style.color = color);
       
       element.append(element_div);
     });
@@ -203,17 +206,17 @@ export default class SongView {
     const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
     
     // *** Guitars ***
-console.log(isEqual(tuning, ["E", "A", "D", "G", "B", "E"]));
+    
     if (!isEqual(tuning, ["E", "A", "D", "G", "B", "E"]))
       return "red";
 
     // *** Bass Guitars ***
-console.log(isEqual(tuning, ["E", "A", "D", "G"]));
+    
     if (!isEqual(tuning, ["E", "A", "D", "G"]))
       return "red";
 
     // *** 5-strings Bass Guitars ***
-    console.log(isEqual(tuning, ["B", "E", "A", "D", "G"]));
+    
     if (!isEqual(tuning, ["B", "E", "A", "D", "G"]))
       return "red";
     
