@@ -64,28 +64,20 @@ export default class Song {
   set tuning(tuning) {
     this.#tuning = tuning;
   }
-
-  getVoice(number) {
-    return this.#voices[number];
-  }
-
-  addVoice(number, title) {
-    this.#voices[number] = title;
-  }
-
-  getInstrument(number) {
-    return this.#instruments[number];
-  }
-
-  addInstrument(number, title) {
-    this.#instruments[number] = title;
-  }
-
-  getVoices() {
+  
+  get voices() {
     return this.#voices;
   }
 
-  getInstruments() {
+  set voices(voices) {
+    this.#voices = voices;
+  }
+  
+  get instruments() {
     return this.#instruments;
+  }
+
+  set instruments(instruments) {
+    this.#instruments = instruments;
   }
 }
