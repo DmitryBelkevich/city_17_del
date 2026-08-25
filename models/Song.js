@@ -66,18 +66,18 @@ export default class Song {
   }
   
   get voices() {
-    return this.#voices;
+    return [...this.#voices];
   }
 
   set voices(voices) {
-    this.#voices = voices;
+    this.#voices = [...voices];
   }
   
   get instruments() {
-    return this.#instruments;
+    return [...this.#instruments];
   }
 
   set instruments(instruments) {
-    this.#instruments = instruments;
+    this.#instruments = [...instruments];
   }
 }
