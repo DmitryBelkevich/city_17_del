@@ -14,9 +14,9 @@ async function main() {
 
     // view
     const songView = new SongView();
-    songView.song = song;console.log(song);
+    songView.song = song;
 
-    // songView.create();
+    songView.create();
   } catch (error) {
     console.error("Ошибка:", error);
   }
