@@ -3759,20 +3759,13 @@
     "score": "",
     "playback": "",
     "tuning": ["E", "A", "D", "G", "B", "E"],
-    "instruments": {
-      "Guitar 1": {
-        "capo": "+3"
-      },
-      "Guitar 2": {
-        "tuning": ["D", "A", "D", "G", "B", "E"],
-        "capo": "+3"
-      },
-      "Bass Guitar": {
-        "tuning": ["D", "A", "D", "G"]
-      }
-    },
+    "instruments": [
+      "Guitar 1": {},
+      "Guitar 2": {},
+      "Bass Guitar ": {}
+    ],
     "visible": "true"
-  }
+  },
   {
     "id": "0",
     "band": "Band", "title": "Title",
