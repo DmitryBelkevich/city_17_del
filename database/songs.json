@@ -3759,11 +3759,7 @@
     "score": "",
     "playback": "",
     "tuning": ["E", "A", "D", "G", "B", "E"],
-    "instruments": [
-      "Guitar 1": {},
-      "Guitar 2": {},
-      "Bass Guitar ": {}
-    ],
+    
     "visible": "true"
   },
   {
