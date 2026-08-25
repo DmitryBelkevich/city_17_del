@@ -115,97 +115,97 @@ export default class SongView {
   }
 
   getTitle(tuning) {
-      const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
+    const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
+    
+    // *** Guitars ***
+    
+    // standards
+    if (isEqual(tuning, ["E", "A", "D", "G", "B", "E"]))//0
+      return "Standard E";
 
-      // *** Guitars ***
-      
-      // standards
-      if (isEqual(tuning, ["E", "A", "D", "G", "B", "E"]))//0
-        return "Standard E";
+    if (isEqual(tuning, ["D#", "G#", "C#", "F#", "A#", "D#"]))//-1
+      return "Standard D#";
 
-      if (isEqual(tuning, ["D#", "G#", "C#", "F#", "A#", "D#"]))//-1
-        return "Standard D#";
+    if (isEqual(tuning, ["D", "G", "C", "F", "A", "D"]))//-2
+      return "Standard D";
+
+    if (isEqual(tuning, ["C#", "F#", "B", "E", "G#", "C#"]))//-3
+      return "Standard C#";
+    
+    // drops
+    if (isEqual(tuning, ["D", "A", "D", "G", "B", "E"]))//0
+      return "Drop D";
+
+    if (isEqual(tuning, ["C#", "G#", "C#", "F#", "A#", "D#"]))//-1
+      return "Drop C#";
+
+    if (isEqual(tuning, ["C", "G", "C", "F", "A", "D"]))//-2
+      return "Drop C";
+
+    if (isEqual(tuning, ["B", "F#", "B", "E", "G#", "C#"]))//-3
+      return "Drop B";
+
+    // *** Bass Guitars ***
+
+    // standards
+    if (isEqual(tuning, ["E", "A", "D", "G"]))//0
+      return "Standard E";
+
+    if (isEqual(tuning, ["D#", "G#", "C#", "F#"]))//-1
+      return "Standard D#";
+
+    if (isEqual(tuning, ["D", "G", "C", "F"]))//-2
+      return "Standard D";
+
+    if (isEqual(tuning, ["C#", "F#", "B", "E"]))//-3
+      return "Standard C#";
+
+    // drops
+    if (isEqual(tuning, ["D", "A", "D", "G"]))//0
+      return "Drop D";
+
+    if (isEqual(tuning, ["C#", "G#", "C#", "F#"]))//-1
+      return "Drop C#";
+
+    if (isEqual(tuning, ["C", "G", "C", "F"]))//-2
+      return "Drop C";
+
+    if (isEqual(tuning, ["B", "F#", "B", "E"]))//-3
+      return "Drop B";
+
+    // *** 5-strings Bass Guitars ***
+
+    if (isEqual(tuning, ["B", "E", "A", "D", "G"]))//0
+      return "Standard E";
+
+    if (isEqual(tuning, ["D#", "D#", "G#", "C#", "F#", "A#"]))//-1
+      return "Standard D#";
+
+    if (isEqual(tuning, ["A", "D", "G", "C", "F"]))//-2
+      return "Standard D";
+
+    if (isEqual(tuning, ["G#", "C#", "F#", "B", "E"]))//-3
+      return "Standard C#";
+  }
   
-      if (isEqual(tuning, ["D", "G", "C", "F", "A", "D"]))//-2
-        return "Standard D";
-  
-      if (isEqual(tuning, ["C#", "F#", "B", "E", "G#", "C#"]))//-3
-        return "Standard C#";
-      
-      // drops
-      if (isEqual(tuning, ["D", "A", "D", "G", "B", "E"]))//0
-        return "Drop D";
+  getColor(tuning) {
+    const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
 
-      if (isEqual(tuning, ["C#", "G#", "C#", "F#", "A#", "D#"]))//-1
-        return "Drop C#";
-  
-      if (isEqual(tuning, ["C", "G", "C", "F", "A", "D"]))//-2
-        return "Drop C";
-  
-      if (isEqual(tuning, ["B", "F#", "B", "E", "G#", "C#"]))//-3
-        return "Drop B";
+    // *** Guitars ***
 
-      // *** Bass Guitars ***
+    if (!isEqual(tuning, ["E", "A", "D", "G", "B", "E"]))
+      return "red";
 
-      // standards
-      if (isEqual(tuning, ["E", "A", "D", "G"]))//0
-        return "Standard E";
+    // *** Bass Guitars ***
 
-      if (isEqual(tuning, ["D#", "G#", "C#", "F#"]))//-1
-        return "Standard D#";
-  
-      if (isEqual(tuning, ["D", "G", "C", "F"]))//-2
-        return "Standard D";
-  
-      if (isEqual(tuning, ["C#", "F#", "B", "E"]))//-3
-        return "Standard C#";
+    if (!isEqual(tuning, ["E", "A", "D", "G"]))
+      return "red";
 
-      // drops
-      if (isEqual(tuning, ["D", "A", "D", "G"]))//0
-        return "Drop D";
-
-      if (isEqual(tuning, ["C#", "G#", "C#", "F#"]))//-1
-        return "Drop C#";
-  
-      if (isEqual(tuning, ["C", "G", "C", "F"]))//-2
-        return "Drop C";
-  
-      if (isEqual(tuning, ["B", "F#", "B", "E"]))//-3
-        return "Drop B";
-
-      // *** 5-strings Bass Guitars ***
-
-      if (isEqual(tuning, ["B", "E", "A", "D", "G"]))//0
-        return "Standard E";
-
-      if (isEqual(tuning, ["D#", "D#", "G#", "C#", "F#", "A#"]))//-1
-        return "Standard D#";
-  
-      if (isEqual(tuning, ["A", "D", "G", "C", "F"]))//-2
-        return "Standard D";
-  
-      if (isEqual(tuning, ["G#", "C#", "F#", "B", "E"]))//-3
-        return "Standard C#";
-    }
-
-    getColor(tuning) {
-      const isEqual = (a, b) => a.length === b.length && a.every((val, i) => val === b[i]);
-
-      // *** Guitars ***
-
-      if (!isEqual(tuning, ["E", "A", "D", "G", "B", "E"]))
-        return "red";
-
-      // *** Bass Guitars ***
-
-      if (!isEqual(tuning, ["E", "A", "D", "G"]))
-        return "red";
-
-      // *** 5-strings Bass Guitars ***
-      
-      if (!isEqual(tuning, ["B", "E", "A", "D", "G"]))
-        return "red";
-      
-      return "green";
-    }
+    // *** 5-strings Bass Guitars ***
+    
+    if (!isEqual(tuning, ["B", "E", "A", "D", "G"]))
+      return "red";
+    
+    return "green";
+  }
 }
