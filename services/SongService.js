@@ -23,7 +23,7 @@ export default class SongService {
         instrument.capo = 0;
 
       if (instrument.title == "Keyboards")
-        break;
+        instrument.transposition = 0;
     });
 
     console.log(song);
