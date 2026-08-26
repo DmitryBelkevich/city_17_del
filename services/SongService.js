@@ -1,5 +1,4 @@
 import SongDao from '../../../dao/SongDao.js';
-import Song from '../models/Song.js';
 
 export default class SongService {
   #songDao = new SongDao();
