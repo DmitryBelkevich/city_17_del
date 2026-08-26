@@ -1,5 +1,5 @@
 import Song from '../../../models/Song.js';
-import SongDao from '../../../services/SongService.js';
+import SongService from '../../../services/SongService.js';
 import SongView from '../../../views/SongView.js';
 
 const queryString = window.location.search;
