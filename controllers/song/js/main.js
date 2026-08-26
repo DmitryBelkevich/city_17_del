@@ -1,5 +1,5 @@
 import Song from '../../../models/Song.js';
-import SongDao from '../../../dao/SongDao.js';
+import SongDao from '../../../services/SongService.js';
 import SongView from '../../../views/SongView.js';
 
 const queryString = window.location.search;
@@ -9,8 +9,8 @@ const id = urlParams.get('id');
 async function main() {
   try {
     // model
-    const songDao = new SongDao();
-    const song = await songDao.getById(id);
+    const songService = new SongService();
+    const song = await songService.getById(id);
 
     // view
     const songView = new SongView();
