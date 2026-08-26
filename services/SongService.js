@@ -31,7 +31,13 @@ export default class SongService {
     return song;
   }
 
+  getFullInstrumentTitle(tuning) {
+    var title;
+
+    return title;
+  }
+
   isStandardTuning(tuning) {
-    
+    return false;
   }
 }
