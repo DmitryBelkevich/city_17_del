@@ -72,22 +72,22 @@ export default class SongView {
     const element = document.getElementById("tuning");
 
     this.#song.instruments.forEach((instrument, index) => {
-      const element_div1 = document.createElement('div');
+      const div_inst_tuning = document.createElement('div');
 
-      element_div1.id = instrument.title.replaceAll(' ', '-') + "-tuning";
+      div_inst_tuning.id = instrument.title.replaceAll(' ', '-') + "-tuning";
       
       const str = instrument.title + " tuning: " + this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]";
-      element_div1.textContent = str;
+      div_inst_tuning.textContent = str;
 
       const color = this.getColor(instrument.tuning);
-      element_div1.style.color = color;
+      div_inst_tuning.style.color = color;
       
-      element.append(element_div1);
+      element.append(div_inst_tuning);
       
       if (instrument.capo) {
         const element_div_capo = document.createElement('div');
         const capo = "Capo: +" + instrument.capo;console.log(capo);
-        element.append(element_div_capo);
+        div_inst_tuning.append(element_div_capo);
 
         element_div_capo.style = "red";
       }
