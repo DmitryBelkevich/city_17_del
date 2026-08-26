@@ -91,6 +91,10 @@ export default class SongView {
         element_div_capo.style.color = "red";
         div_inst_tuning.append(element_div_capo);
       }
+
+      if (instrument.transposition) {
+        console.log("set transposition: " + instrument.transposition);
+      }
     });
   }
   
