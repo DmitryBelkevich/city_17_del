@@ -387,7 +387,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "2"
+        "capo": 2
       },
       {
         "title": "Bass Guitar",
