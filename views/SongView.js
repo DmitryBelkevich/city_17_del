@@ -72,8 +72,10 @@ export default class SongView {
       const div_inst_tuning = document.createElement('div');
 
       div_inst_tuning.id = instrument.title.replaceAll(' ', '-') + "-tuning";
+
+      var title = this.getTitle(instrument.tuning),
       
-      const str = instrument.title + " tuning: " + this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]";
+      const str = instrument.title + " tuning: " + title + " [" + instrument.tuning + "]";
       div_inst_tuning.textContent = str;
 
       const color = this.getColor(instrument.tuning);
