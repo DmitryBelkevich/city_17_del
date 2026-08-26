@@ -76,9 +76,9 @@ export default class SongView {
 
       element_div.id = instrument.title.replaceAll(' ', '-') + "-tuning";
 
-      var capo;
+      var capo = "";
       if (instrument.capo)
-        capo = " Capo: " + instrument.capo;
+        capo = " Capo: +" + instrument.capo;
       
       const title = instrument.title + " tuning: " + this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]" + capo;
       element_div.textContent = title;
