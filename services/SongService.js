@@ -19,15 +19,16 @@ export default class SongService {
         if (!instrument.tuning)
           instrument.tuning = ["B", "E", "A", "D", "G"];
 
-      if (!instrument.capo)
-        instrument.capo = 0;
+      if (instrument.title != "Keyboards")
+        if (!instrument.capo)
+          instrument.capo = 0;
 
       if (instrument.title == "Keyboards")
-        instrument.transposition = 0;
+        if (!instrument.transposition)
+          instrument.transposition = 0;
     });
 
     console.log(song);
-    // fill fields
     
     return song;
   }
