@@ -70,7 +70,7 @@ export default class SongView {
 
     this.#song.instruments.forEach((instrument, index) => {
       // if (!instrument.tuning) {
-      //   if (instrument.title == "Gutar")
+      //   if (instrument.title == "Guitar")
       //     instrument.tuning = ["E", "A", "D", "G", "B", "E"];
         
       //   if (instrument.title == "Bass Guitar")
