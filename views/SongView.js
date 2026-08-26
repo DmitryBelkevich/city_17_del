@@ -76,6 +76,9 @@ export default class SongView {
         if (instrument.title == "Bass Guitar")
           instrument.tuning = ["E", "A", "D", "G"];
       }
+
+      if (!instrument.capo)
+        nstrument.capo = 0;
       
       const div_inst_tuning = document.createElement('div');
 
