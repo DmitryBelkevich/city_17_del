@@ -72,6 +72,14 @@ export default class SongView {
     const element = document.getElementById("tuning");
 
     this.#song.instruments.forEach((instrument, index) => {
+      if (!instrument.tuning) {
+        if (instrument.title == "Gutar")
+          instrument.tuning = ["E", "A", "D", "G", "B", "E"];
+        
+        if (instrument.title == "Bass Guitar")
+          instrument.tuning = ["E", "A", "D", "G"];
+      }
+      
       const div_inst_tuning = document.createElement('div');
 
       div_inst_tuning.id = instrument.title.replaceAll(' ', '-') + "-tuning";
