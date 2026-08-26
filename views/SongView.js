@@ -67,19 +67,6 @@ export default class SongView {
 
   setTuning() {
     const element = document.getElementById("tuning");
-
-    this.#song.instruments.forEach((instrument, index) => {
-      // if (!instrument.tuning) {
-      //   if (instrument.title == "Guitar")
-      //     instrument.tuning = ["E", "A", "D", "G", "B", "E"];
-        
-      //   if (instrument.title == "Bass Guitar")
-      //     instrument.tuning = ["E", "A", "D", "G"];
-      // }
-
-      // if (!instrument.capo)
-      //   instrument.capo = 0;
-    });
     
     this.#song.instruments.forEach((instrument, index) => {
       const div_inst_tuning = document.createElement('div');
