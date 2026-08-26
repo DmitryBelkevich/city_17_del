@@ -79,8 +79,8 @@ export default class SongView {
 
       // if (!instrument.capo)
       //   instrument.capo = 0;
-    }
-
+    });
+    
     this.#song.instruments.forEach((instrument, index) => {
       const div_inst_tuning = document.createElement('div');
 
