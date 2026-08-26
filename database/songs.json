@@ -3611,6 +3611,11 @@
     "text": "SynthPop/Альянс/Альянс - На заре.html",
     "score": "https://drive.google.com/file/d/1Ozb6GofzZKNbIv5GFti6CTKxG8Qk9BkF/view?usp=drive_link",
     "playback": "https://drive.google.com/drive/folders/17ms-kVQLzpbdPwm3XT1st-mGT8hTtOwM?usp=drive_link",
+    "instruments": [
+      {
+        "title": "Bass Guitar"
+      }
+    ],
     "visible": "true"
   },
   
