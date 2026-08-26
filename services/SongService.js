@@ -30,4 +30,8 @@ export default class SongService {
     
     return song;
   }
+
+  isStandardTuning(tuning) {
+    
+  }
 }
