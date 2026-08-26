@@ -73,7 +73,7 @@ export default class SongView {
 
       div_inst_tuning.id = instrument.title.replaceAll(' ', '-') + "-tuning";
 
-      var title = this.getTitle(instrument.tuning),
+      const title = this.getTitle(instrument.tuning),
       
       const str = instrument.title + " tuning: " + title + " [" + instrument.tuning + "]";
       div_inst_tuning.textContent = str;
