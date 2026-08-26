@@ -83,7 +83,7 @@ export default class SongView {
       
       if (instrument.capo) {
         const element_div_capo = document.createElement('div');
-        const capo = "Capo: +" + instrument.capo;console.log(capo);
+        const capo = "Capo: +" + instrument.capo;
 
         element_div_capo.textContent = capo;
         element_div_capo.style.color = "red";
