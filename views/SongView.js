@@ -84,7 +84,7 @@ export default class SongView {
       
       element.append(element_div);
       
-      if (instrument.capo) {
+      if (instrument.capo) {console.log("Hello World");
         const element_div_capo = document.createElement('div');
         const capo = "Capo: +" + instrument.capo;
         element.append(element_div_capo);
