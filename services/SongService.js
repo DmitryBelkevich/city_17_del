@@ -1,9 +1,9 @@
 import SongDao from '../dao/SongDao.js';
 
 export default class SongService {
+  #songDao = new SongDao();
+  
   async getById(id) {
-    const songDao = new SongDao();
-    
     const song = await songDao.getById(id);
 
     song.instruments.forEach((instrument, index) => {
