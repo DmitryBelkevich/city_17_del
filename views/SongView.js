@@ -76,7 +76,7 @@ export default class SongView {
 
       element_div.id = instrument.title.replaceAll(' ', '-') + "-tuning";
 
-      const capo;
+      var capo;
       if (instrument.capo)
         capo = " Capo: " + instrument.capo;
       
