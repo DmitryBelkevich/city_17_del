@@ -78,7 +78,7 @@ export default class SongView {
       }
 
       if (!instrument.capo)
-        nstrument.capo = 0;
+        instrument.capo = 0;
       
       const div_inst_tuning = document.createElement('div');
 
