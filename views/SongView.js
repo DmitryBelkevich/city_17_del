@@ -66,9 +66,6 @@ export default class SongView {
   }
 
   setTuning() {
-    // if (!this.#song.tuning)
-      // this.#song.tuning = ["E", "A", "D", "G", "B", "E"];
-    
     const element = document.getElementById("tuning");
 
     this.#song.instruments.forEach((instrument, index) => {
