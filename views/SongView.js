@@ -207,24 +207,18 @@ export default class SongView {
     
     // *** Guitars ***
     
-    if (isEqual(tuning, ["E", "A", "D", "G", "B", "E"])) {
-      console.log(1);
+    if (isEqual(tuning, ["E", "A", "D", "G", "B", "E"]))
       return "green";
-    }
 
     // *** Bass Guitars ***
     
-    if (isEqual(tuning, ["E", "A", "D", "G"])) {
-      console.log(2);
+    if (isEqual(tuning, ["E", "A", "D", "G"]))
       return "green";
-    }
 
     // *** 5-strings Bass Guitars ***
     
-    if (isEqual(tuning, ["B", "E", "A", "D", "G"])) {
-      console.log(3);
+    if (isEqual(tuning, ["B", "E", "A", "D", "G"]))
       return "green";
-    }
     
     return "red";
   }
