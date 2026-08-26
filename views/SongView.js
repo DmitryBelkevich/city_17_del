@@ -75,18 +75,20 @@ export default class SongView {
       const element_div = document.createElement('div');
 
       element_div.id = instrument.title.replaceAll(' ', '-') + "-tuning";
-
-      var capo = "";
-      if (instrument.capo)
-        capo = " Capo: +" + instrument.capo;
       
-      const title = instrument.title + " tuning: " + this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]" + capo;
+      const title = instrument.title + " tuning: " + this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]";
       element_div.textContent = title;
 
       const color = this.getColor(instrument.tuning);
       element_div.style.color = color;
       
       element.append(element_div);
+      
+      if (instrument.capo) {
+        const element_div_capo = document.createElement('div');
+        const capo = "Capo: +" + instrument.capo;
+        element.append(element_div_capo);
+      }
     });
   }
   
