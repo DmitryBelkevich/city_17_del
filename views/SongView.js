@@ -83,7 +83,7 @@ export default class SongView {
     this.#song.instruments.forEach((instrument, index) => {
       const element_div = document.createElement('div');
       
-      const title = instrument.tuning + " tuning: " + this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]";
+      const title = instrument.tuning.title + " tuning: " + this.getTitle(instrument.tuning) + " [" + instrument.tuning + "]";
       element_div.textContent = title;
 
       const color = this.getColor(instrument.tuning);
