@@ -407,7 +407,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "2"
+        "capo": 2
       },
       {
         "title": "Bass Guitar",
@@ -525,7 +525,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "2"
+        "capo": 2
       },
       {
         "title": "Bass Guitar",
@@ -668,7 +668,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "2"
+        "capo": 2
       },
       {
         "title": "Bass Guitar",
@@ -706,7 +706,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "6"
+        "capo": 6
       },
       {
         "title": "Bass Guitar",
@@ -726,7 +726,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "6"
+        "capo": 6
       },
       {
         "title": "Bass Guitar",
@@ -998,7 +998,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "3"
+        "capo": 3
       },
       {
         "title": "Bass Guitar",
@@ -1018,7 +1018,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "3"
+        "capo": 3
       },
       {
         "title": "Bass Guitar",
@@ -1038,7 +1038,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "2"
+        "capo": 2
       },
       {
         "title": "Bass Guitar",
@@ -1058,7 +1058,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "2"
+        "capo": 2
       },
       {
         "title": "Bass Guitar",
@@ -1141,7 +1141,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "3"
+        "capo": 3
       },
       {
         "title": "Bass Guitar",
@@ -1161,7 +1161,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "3"
+        "capo": 3
       },
       {
         "title": "Bass Guitar",
@@ -1633,7 +1633,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "3"
+        "capo": 3
       },
       {
         "title": "Bass Guitar",
@@ -2358,7 +2358,7 @@
       {
         "title": "Guitar",
         "tuning": ["D", "A", "D", "G", "B", "E"],
-        "capo": "4"
+        "capo": 4
       },
       {
         "title": "Bass Guitar",
@@ -2378,7 +2378,7 @@
       {
         "title": "Guitar",
         "tuning": ["D", "A", "D", "G", "B", "E"],
-        "capo": "4"
+        "capo": 4
       },
       {
         "title": "Bass Guitar",
@@ -2417,7 +2417,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "4"
+        "capo": 4
       },
       {
         "title": "Bass Guitar",
@@ -2437,7 +2437,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "4"
+        "capo": 4
       },
       {
         "title": "Bass Guitar",
@@ -2493,7 +2493,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "5"
+        "capo": 5
       },
       {
         "title": "Bass Guitar",
@@ -2640,7 +2640,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "7"
+        "capo": 7
       },
       {
         "title": "Bass Guitar",
@@ -2660,7 +2660,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "7"
+        "capo": 7
       },
       {
         "title": "Bass Guitar",
@@ -2698,7 +2698,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "5"
+        "capo": 5
       },
       {
         "title": "Bass Guitar",
@@ -2718,7 +2718,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "5"
+        "capo": 5
       },
       {
         "title": "Bass Guitar",
@@ -2877,7 +2877,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "2"
+        "capo": 2
       },
       {
         "title": "Bass Guitar",
@@ -2897,7 +2897,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "2"
+        "capo": 2
       },
       {
         "title": "Bass Guitar",
@@ -2917,7 +2917,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "1"
+        "capo": 1
       },
       {
         "title": "Bass Guitar",
@@ -2937,7 +2937,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "1"
+        "capo": 1
       },
       {
         "title": "Bass Guitar",
@@ -3497,7 +3497,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "1"
+        "capo": 1
       },
       {
         "title": "Bass Guitar",
@@ -3517,7 +3517,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "1"
+        "capo": 1
       },
       {
         "title": "Bass Guitar",
@@ -3573,7 +3573,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "1"
+        "capo": 1
       },
       {
         "title": "Bass Guitar",
@@ -3593,7 +3593,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "1"
+        "capo": 1
       },
       {
         "title": "Bass Guitar",
@@ -3706,7 +3706,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "5"
+        "capo": 5
       },
       {
         "title": "Bass Guitar",
@@ -3868,7 +3868,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "1"
+        "capo": 1
       },
       {
         "title": "Bass Guitar",
@@ -3897,7 +3897,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "6"
+        "capo": 6
       },
       {
         "title": "Bass Guitar",
@@ -4120,7 +4120,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "3"
+        "capo": 3
       },
       {
         "title": "Bass Guitar",
@@ -4140,7 +4140,7 @@
       {
         "title": "Guitar",
         "tuning": ["E", "A", "D", "G", "B", "E"],
-        "capo": "3"
+        "capo": 3
       },
       {
         "title": "Bass Guitar",
