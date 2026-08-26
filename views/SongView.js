@@ -84,10 +84,12 @@ export default class SongView {
       
       element.append(element_div);
       
-      if (instrument.capo) {console.log("Hello World");
+      if (instrument.capo) {
         const element_div_capo = document.createElement('div');
-        const capo = "Capo: +" + instrument.capo;
+        const capo = "Capo: +" + instrument.capo;console.log(capo);
         element.append(element_div_capo);
+
+        element_div_capo.style = "red";
       }
     });
   }
