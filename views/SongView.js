@@ -88,7 +88,7 @@ export default class SongView {
         const capo = "Capo: +" + instrument.capo;
 
         element_div_capo.textContent = capo;
-        element_div_capo.class = "capo";
+        element_div_capo.classList.add("capo");;
         div_inst_tuning.append(element_div_capo);
       }
 
