@@ -14,4 +14,8 @@
   .bass-guitar {
     display: none;
   } */
+
+  .capo {
+    color: red;
+  }
 }
