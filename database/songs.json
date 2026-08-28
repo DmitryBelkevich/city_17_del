@@ -314,7 +314,18 @@
       {
         "title": "Guitar",
         "tuning": ["B", "F#", "B", "E", "G#", "C#"]
-      },
+      }
+    ],
+    "visible": "true"
+  },
+  {
+    "id": "409",
+    "band": "Слот", "title": "Круги на воде",
+    "genre": "Metal",
+    "text": "Metal/Слот/Слот - Круги на воде (bass).html",
+    "score": "https://drive.google.com/file/d/1vss0mNtVDcI0-9uKf6ckbgyXnZqCFoF1/view?usp=drive_link",
+    "playback": "https://drive.google.com/drive/folders/1jOYtYQkapoxvRZNLmaiubSZ01xmYpc63?usp=drive_link",
+    "instruments": [
       {
         "title": "Bass Guitar",
         "tuning": ["B", "E", "A", "D", "G"]
