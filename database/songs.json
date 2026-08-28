@@ -2373,10 +2373,6 @@
         "title": "Guitar",
         "tuning": ["D", "A", "D", "G", "B", "E"],
         "capo": 4
-      },
-      {
-        "title": "Bass Guitar",
-        "tuning": ["E", "A", "D", "G"]
       }
     ],
     "visible": "true"
@@ -2390,9 +2386,7 @@
     "playback": "https://drive.google.com/drive/folders/1T4gKNkiAOWfrgMc0-WdLkWjJvCXH50Hv?usp=drive_link",
     "instruments": [
       {
-        "title": "Guitar",
-        "tuning": ["D", "A", "D", "G", "B", "E"],
-        "capo": 4
+        "title": "Guitar"
       },
       {
         "title": "Bass Guitar",
