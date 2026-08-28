@@ -243,6 +243,9 @@
     "instruments": [
       {
         "title": "Guitar"
+      },
+      {
+        "title": "Bass Guitar"
       }
     ],
     "visible": "true"
